@@ -1,0 +1,79 @@
+.CTA {
+  width: 60%;
+  display: flex;
+
+  background-color: white;
+  padding: 1em;
+
+  margin: 0 auto;
+  margin-top: 2em;
+  text-align: center;
+  color: black;
+  display: inline-block;
+}
+
+@media screen and (min-width: 850px) {
+  .CTA {
+    margin-left: 0;
+    width: 20em;
+  }
+}
+
+.btnReadMore {
+  background-color: white;
+  padding: 1em;
+  color: black;
+  text-align: center;
+}
+
+@media screen and (min-width: 850px) {
+  .btnReadMore {
+    width: 40%;
+    margin-left: 0;
+  }
+}
+
+.btnGroup {
+  display: flex;
+  gap: 5em;
+}
+
+.deleteUpdate__btns {
+  display: flex;
+  gap: 2em;
+
+  width: 100%;
+}
+
+.warning {
+  color: red;
+  background-color: whitesmoke;
+
+  border: 1px solid red;
+  width: max-content;
+  padding: 2em;
+  margin: 0 auto;
+}
+
+.warning__mod {
+  color: red;
+  background-color: whitesmoke;
+
+  border: 1px solid red;
+
+  padding: 1em;
+}
+
+.success {
+  background-color: green;
+  color: white;
+  padding: 1em;
+  font-size: 2em;
+}
+
+.welcome {
+  background-color: red;
+}
+
+.dashboard {
+}
